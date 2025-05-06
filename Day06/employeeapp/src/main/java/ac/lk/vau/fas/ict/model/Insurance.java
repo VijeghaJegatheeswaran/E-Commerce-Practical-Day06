@@ -8,7 +8,7 @@ import jakarta.persistence.OneToOne;
 @Entity
 public class Insurance {
 
-
+    @Id
 	@Column(name="Insurance_id")
 	private int id;
 	@Column(name="Insurance_type")

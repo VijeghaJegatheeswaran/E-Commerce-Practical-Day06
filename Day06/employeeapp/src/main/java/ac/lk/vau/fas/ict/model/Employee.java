@@ -15,7 +15,8 @@ public class Employee{
 	private int age;
 	private String gender;
 	private double salary;
-
+	@ManyToOne
+	private Department department; // one - many relationship in employee and department
 	
 	@ManyToMany(mappedBy="employees")
 	private List<Project>projects; //employee has many projects
