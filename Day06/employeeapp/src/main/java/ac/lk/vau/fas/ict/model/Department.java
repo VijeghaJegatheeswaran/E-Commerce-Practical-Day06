@@ -14,8 +14,7 @@ public class Department {
 	@Column(name="dept_id")
 	private int id;
 	
-	@Column(nullable=false)
-	private String name;
+	
 	
 	private Date established;
 	
