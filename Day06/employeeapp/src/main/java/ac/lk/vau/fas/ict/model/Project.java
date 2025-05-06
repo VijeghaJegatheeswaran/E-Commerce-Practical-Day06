@@ -14,8 +14,7 @@ public class Project {
 	private int id;
 	private String name;
 	private long totalcost;
-	@ManyToMany
-	private List<Employee>employees;
+
 
 	
 
